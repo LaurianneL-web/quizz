@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-// import api from "./utils/api";
+import api from "./../utils/api";
+
 
 import Home from "./pages/home";
 
