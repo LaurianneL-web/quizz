@@ -1,0 +1,40 @@
+{
+  "name": "quizz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurianneL-web/quizz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaurianneL-web/quizz/issues"
+  },
+  "homepage": "https://github.com/LaurianneL-web/quizz#readme",
+  "dependencies": {
+    "connected-react-router": "^6.5.2",
+    "history": "^4.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-devtools": "^3.5.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
