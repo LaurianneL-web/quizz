@@ -9,9 +9,9 @@ const client = createClient({
 // console.log(config);
 console.log(client);
 
-// const environment = client.getSpace(config.CONTENTFUL_SPACE_ID)
-// .then((space) => space.getEnvironment('master'))
-// .then((environment) => environment)
-// .catch(console.error)
+const environment = client.getSpace(config.CONTENTFUL_SPACE_ID)
+.then((space) => space.getEnvironment('master'))
+.then((environment) => environment)
+.catch(console.error)
 
-// export default environment;
+export default environment;
