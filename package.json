@@ -20,6 +20,7 @@
   "homepage": "https://github.com/LaurianneL-web/quizz#readme",
   "dependencies": {
     "connected-react-router": "^6.5.2",
+    "contentful": "^7.14.4",
     "contentful-management": "^5.9.0",
     "dotenv": "^8.0.0",
     "history": "^4.9.0",
@@ -37,6 +38,6 @@
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "less": "^3.9.0",
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.4"
   }
 }
